@@ -1,0 +1,142 @@
+{
+    "threads":[
+       {
+          "id":0,
+          "title":"how to invest safely in stock market",
+          "author":"author1",
+          "about":"address",
+          "description":"Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
+          "comments":[
+             {
+                "titleid":0,
+                "id":0,
+                "name":"sandy",
+                "comment":"try reading this docx man!!"
+             },
+             {
+                "titleid":0,
+                "id":1,
+                "name":"jack",
+                "comment":"good one"
+             }
+          ]
+       },
+       {
+          "id":1,
+          "title":"How to tract the stocks rates",
+          "author":"author2",
+          "about":"address",
+          "description":"Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
+          "comments":[
+             {
+                "titleid":1,
+                "id":0,
+                "name":"andrew",
+                "comment":"try reading this docx man!!"
+             },
+             {
+                "titleid":1,
+                "id":1,
+                "name":"gm",
+                "comment":"good one"
+             }
+          ]
+       },
+       {
+          "id":2,
+          "title":"How i believe the stock brokers",
+          "author":"author3",
+          "about":"address",
+          "description":"Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
+          "comments":[
+             {
+                "titleid":2,
+                "id":2,
+                "name":"baskar",
+                "comment":"try reading this docx man!!"
+             },
+             {
+                "titleid":2,
+                "id":1,
+                "name":"manic",
+                "comment":"good one"
+             }
+          ]
+       },
+       {
+          "id":3,
+          "title":"How investing in stocks really makes me rich?",
+          "author":"author4",
+          "about":"address",
+          "description":"Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
+          "comments":[
+             {
+                "titleid":3,
+                "id":3,
+                "name":"sk",
+                "comment":"try reading this docx man!!"
+             },
+             {
+                "titleid":3,
+                "id":1,
+                "name":"ks",
+                "comment":"good one"
+             }
+          ]
+       }
+    ],
+    "modalIsOpen":false,
+    "currentthread":{
+       "id":0,
+       "title":"how to invest safely in stock market",
+       "author":"author1",
+       "about":"address",
+       "description":"Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
+       "comments":[
+          {
+             "titleid":0,
+             "id":0,
+             "name":"sandy",
+             "comment":"try reading this docx man!!"
+          },
+          {
+             "titleid":0,
+             "id":1,
+             "name":"jack",
+             "comment":"good one"
+          }
+       ]
+    },
+    "currentcomment":[
+       {
+          "titleid":0,
+          "id":1,
+          "name":"jack",
+          "comment":"good one"
+       },
+       {
+          "titleid":1,
+          "id":2,
+          "name":"gm",
+          "comment":"good one"
+       },
+       {
+          "titleid":3,
+          "id":1,
+          "name":"ks",
+          "comment":"good one"
+       },
+       {
+          "titleid":0,
+          "id":0,
+          "name":"sandy",
+          "comment":"try reading this docx man!!"
+       },
+       {
+          "titleid":3,
+          "id":1,
+          "name":"ks",
+          "comment":"good one"
+       }
+    ]
+ }

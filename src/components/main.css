@@ -1,0 +1,469 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container .row .col {
+  border: 2px solid green;
+}
+
+.bor {
+  border: 2px solid gray;
+}
+
+.mediaclass {
+  font-size: 50px;
+} */
+
+@media only screen and (max-width: 600px) {
+    .App {
+      text-align: center;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .mediaclass {
+      font-size: 30px;
+    }
+    .topic {
+      font-size: 13px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .remove-button {
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 10px;
+    }
+    .thread-header {
+        font-size: 13px;
+        margin-bottom: initial;
+        text-align: center;
+       
+
+    }
+    .add-button {
+        font-size: 8px !important;
+    }
+    .addtitle-row {
+        height: 30px;
+        align-content: center;
+    }
+    
+    .thread-top {
+        margin: auto auto;
+       
+    }
+    .content {
+      position: absolute;
+      inset: 30% auto auto 50%;
+      border: 1px solid rgb(204, 204, 204);
+      background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+      overflow: auto;
+      border-radius: 4px;
+      outline: currentcolor none medium;
+      padding: 11px;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
+    
+    }
+    form{
+      background: white ;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+   }
+   form input {
+     background: #f2f2f2;
+     width: 100%;
+     border: none;
+     padding: 15px;
+     font-size: 10px;
+     margin: 0 0 15px;
+
+   }
+   form button {
+     background: #065784;
+     width: 100%;
+     color: #f2f2f2;
+     border: none;
+     padding: 10px;  
+     /* font-family: 'Courier New', Courier, monospace; */
+     border-radius: 3px;
+     width: 30%;
+     font-size: 10px;
+     
+   }
+
+   form button:hover {
+     background:  #7b8589
+   }
+   .modal-cancel-button{
+      /*
+     margin-bottom: 5px;
+     margin-bottom: auto;
+     margin-left: auto;
+     display: block;
+     font-size: 12px;
+     padding: 10px;
+     width: 89% ; */
+     margin: auto auto;
+     margin-top: -5px;
+     display: block !important;
+     float: right;
+     height: 25px;
+     width: 30px;
+     font-size: 0.5rem !important;
+     
+   }
+   .forum-threads {
+    width: 95%;
+    margin-top: 20px;
+}
+.speech-bubble {
+  background: url("https://d30y9cdsu7xlg0.cloudfront.net/png/51904-200.png") center no-repeat;
+  
+  background-size: contain;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  border: none;
+  position: relative;
+  width: 20px;
+  height: 50px;
+}
+  .speech-bubble-text{
+    font-size: 10px;
+  }
+  .singlethread-title {
+    font-size: 1rem;
+  }
+  .singlethread-authorname {
+    font-size: 13px;
+  }
+  .singlethread-description{
+    font-size: 13px;
+  }
+  .singlethread-commenttitle{
+    font-size: 13px;
+  }
+  .singlethread-comments{
+    font-size: 13px;
+  }
+ 
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .App {
+      text-align: center;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .mediaclass {
+      font-size: 30px;
+    }
+    .topic {
+      font-size: 10px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .remove-button {
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 10px;
+    }
+    .thread-header {
+        font-size: 15px ;
+        margin-bottom: initial;
+      
+}
+    
+    .add-button {
+        font-size:8px !important;
+    }
+    .addtitle-row {
+        height: 30px;
+        align-content: center;
+    }
+    .forum-threads {
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .thread-top {
+        margin: auto auto;
+       
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .App {
+      text-align: center;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .mediaclass {
+      font-size: 30px;
+    }
+    .topic {
+      font-size: 10px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .remove-button {
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 10px;
+    }
+    .thread-header {
+        font-size: 15px;
+        margin-bottom: initial;
+       
+
+    }
+    .add-button {
+        font-size: 8px !important;
+    }
+    .addtitle-row {
+        height: 30px;
+        align-content: center;
+    }
+    
+    .thread-top {
+        margin: auto auto;
+       
+    }
+    .forum-threads {
+      width: 95%;
+      margin-top: 20px;
+  }
+  form{
+    background: white ;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+ }
+ form input {
+   background: #f2f2f2;
+   width: 100%;
+   border: none;
+   padding: 15px;
+   font-size: 10px;
+   margin: 0 0 15px;
+
+ }
+ form button {
+   background: #065784;
+   width: 100%;
+   color: #f2f2f2;
+   border: none;
+   padding: 10px;  
+   /* font-family: 'Courier New', Courier, monospace; */
+   border-radius: 3px;
+   width: 30%;
+   font-size: 10px;
+   
+ }
+
+ form button:hover {
+   background:  #7b8589
+ }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .App {
+      text-align: center;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .mediaclass {
+      font-size: 30px;
+    }
+    .topic {
+      font-size: 10px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .remove-button {
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 10px;
+    }
+    .thread-header {
+        font-size: 15px ;
+        margin-bottom: initial;
+       
+
+
+    }
+    .add-button {
+        font-size: 8px !important;
+    }
+    .addtitle-row {
+        height: 30px;
+        align-content: center;
+
+    }
+    .thread-top {
+        margin: auto auto;
+       
+    }
+    .forum-threads {
+      width: 95%;
+      margin-top: 20px;
+  }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    /* .App {
+      text-align: center;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    } */
+    .App {
+      font-family: sans-serif;
+      text-align: center;
+    }
+  
+    .container .row .col {
+      border: 2px solid green;
+    }
+  
+    .bor {
+      border: 2px solid gray;
+    }
+  
+    .mediaclass {
+      font-size: 50px;
+    }
+    .topic {
+      font-size: 15px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .remove-button {
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 15px !important;
+    }
+    .title-thread {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .thread-header{
+        font-size: 20px;
+        margin-bottom: initial;
+        text-align: center;
+
+}
+    
+    .add-button {
+        font-size: 15px !important;
+    }
+    .thread-top {
+        margin: auto auto;
+       
+    }
+    .addtitle-row {
+        height: 50px;
+        align-content: center;
+    }
+
+    .content {
+      position: absolute;
+      inset: 50% auto auto 50%;
+      border: 1px solid rgb(204, 204, 204);
+      background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+      overflow: auto;
+      border-radius: 4px;
+      outline: currentcolor none medium;
+      padding: 11px;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      width: 50%
+    }
+    
+    form{
+       background: white ;
+       margin: 0 auto;
+       padding: 20px;
+       text-align: center;
+    }
+    form input {
+      background: #f2f2f2;
+      width: 100%;
+      border: none;
+      padding: 15px;
+      font-size: 15px;
+      margin: 0 0 15px;
+    }
+    form button {
+      background: #065784;
+      width: 100%;
+      color: #f2f2f2;
+      border: none;
+      padding: 10px;  
+      /* font-family: 'Courier New', Courier, monospace; */
+      border-radius: 3px;
+      width: 30%
+    }
+
+    form button:hover {
+      background:  #7b8589
+    }
+    .modal-cancel-button{
+       /*
+      margin-bottom: 5px;
+      margin-bottom: auto;
+      margin-left: auto;
+      display: block;
+      font-size: 12px;
+      padding: 10px;
+      width: 89% ; */
+      margin: auto auto;
+      margin-top: -5px;
+      display: block !important;
+      float: right;
+      height: 35px;
+      width: 35px;
+    }
+    .forum-threads {
+      width: 95%;
+      margin: auto;
+      margin-top: 20px;
+  }
+  .speech-bubble {
+    background: url("https://d30y9cdsu7xlg0.cloudfront.net/png/51904-200.png") center no-repeat;
+    
+    background-size: contain;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border: none;
+    position: relative;
+}
+  .add-thread-button {
+    height: 40px;
+    width: 40px;
+  }
+  .delete-btn-threads {
+    width: 30px;
+    height: 30px;
+  }
+  .delete-comments-button{
+    width: 30px;
+    height: 30px;
+  }
+  }
+  
+  
